@@ -325,6 +325,7 @@ apt install wget             # Install the latest version of the wget package
 apt install wget=1.2.3       # Install a specific version of the wget package
 apt remove wget              # Removes the wget package
 apt upgrade                  # Upgrades all upgradable packages
+apt autoremove               # Delete unused packages
 ```
 
 ## Shutdown and Reboot
