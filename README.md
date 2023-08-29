@@ -15,7 +15,7 @@ echo $0      # What shell I'm using
 history       # List last commands
 !123          # Run history command 123, change to any history number 
 !!            # Run the last command
-CTRL + R      # Search in history
+CTRL+R        # Search in history
 
 touch foo.sh  # Create foo.sh file
 chmod +x !$   # !$ is the last argument of the last command i.e. foo.sh
